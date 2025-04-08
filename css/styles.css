@@ -129,16 +129,19 @@ body {
      letter-spacing: 0.02em;
      color: var(--ocean);
  } */
-.header .address .contacts {
+.header .address .contacts .nom {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate);
 }
-.header .address .contacts .info {
+address {
+    font-style: normal;
+}
+/* .header .address .contacts .info {
     color: #434455;
 }
 .header .address .contacts .info:hover {
@@ -146,15 +149,14 @@ body {
 }
 .header .address .contacts .info:focus {
     color: #404bbf;
-}
-.header .address .contacts .nom {
-    color: #434455;
-}
+} */
+/* .header .address .contacts .nom {
+    color: #434455; */
 .header .address .contacts .nom:hover {
-    color: #404bbf;
+    color: var(--ocean);
 }
 .header .address .contacts .nom:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
     /* main solutions */
 .main .solutions {
