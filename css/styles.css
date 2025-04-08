@@ -15,16 +15,12 @@
         --font-family: "Roboto", sans-serif;
         --second-family: "Raleway", sans-serif;
 }
-span {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
+
 .header, a, ul, .footer {
     text-decoration: none;
 }
@@ -35,6 +31,16 @@ span {
     height: 72px;
     background: var(--accent);
 }
+.header .studio span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+
+}
 .header .studio {
     font-family: var(--second-family);
     font-weight: 700;
@@ -42,7 +48,8 @@ span {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy);
+    color: #4d5ae5;
+    line-height: 1.17;
 }
 .header .studio:hover {
     font-weight: 500;
@@ -64,37 +71,95 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy);
+    color: #ffffff;
 }
-.header .portfolio :hover {
+.header .portfolio:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--ocean);
 }
-.header .portfolio :focus {
+.header .portfolio:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--ocean);
 }
+.header .portfolio .stu {
+    color: #2e2f42;
+}
+.header .portfolio .stu:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
+.header .portfolio .stu:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
+.header .portfolio .por:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
+.header .portfolio .por:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+} 
+ .header .portfolio .con:hover {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--ocean);
+ }
+ .header .portfolio .con:focus {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--ocean);
+ }
 .header .address .contacts {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
-.header .address .contacts:hover {
-    color: var(--ocean);
+.header .address .contacts .info {
+    color: #434455;
 }
-.header .address .contacts:focus {
-    color: var(--ocean);
+.header .address .contacts .info:hover {
+    color: #404bbf;
 }
-/* main solutions */
+.header .address .contacts .info:focus {
+    color: #404bbf;
+}
+.header .address .contacts .nom {
+    color: #434455;
+}
+.header .address .contacts .nom:hover {
+    color: #404bbf;
+}
+.header .address .contacts .nom:focus {
+    color: #404bbf;
+}
+    /* main solutions */
 .main .solutions {
     width: 1440px;
     height: 600px;
@@ -104,12 +169,13 @@ span {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--accent);
 }
 .main .solutions .order {
+    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -117,6 +183,11 @@ span {
     gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -174,14 +245,15 @@ span {
     color: var(--slate);
 }
 /* main  portfolio*/
-.portfolio h2 {
+.portfolio .folio {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .portfolio .app h3 {
     font-family: var(--font-family);
@@ -205,14 +277,23 @@ span {
     height: 312px;
     background: var(--navy);
 }
-.footer a {
+.footer .foot {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer .foot span {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: #f4f4fd;
 }
 .footer a:hover {
     font-weight: 500;
@@ -221,6 +302,7 @@ span {
     letter-spacing: 0.02em;
     color: var(--ocean);
 }
+
 .footer a:focus {
     font-weight: 500;
     font-size: 16px;
