@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Our portfolio. Effective solutions for your business.
+# goit-markup-hw-01
+Effective solutions for your business
