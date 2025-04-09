@@ -25,11 +25,11 @@ body {
     text-decoration: none;
 }
 /* heder styles */
-.header {
+/* .header {
     width: 1440px;
     height: 72px;
     background: var(--accent);
-}
+} */
 .header .studio span {
     font-family: var(--second-family);
     font-weight: 700;
@@ -43,11 +43,10 @@ body {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    line-height: 1.17;
 }
 .header .studio:hover {
     font-weight: 500;
@@ -86,7 +85,7 @@ body {
     color: var(--ocean);
 } */
 .header .portfolio .stu {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -128,11 +127,11 @@ body {
      color: var(--ocean);
  } */
 .header .address .contacts .nom {
-    font-family: var(--font-family);
-    font-weight: 400;
+    /* font-family: var(--font-family);
+    font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
+    /* font-style: normal; */
     letter-spacing: 0.02em;
     color: var(--slate);
 }
