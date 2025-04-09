@@ -17,8 +17,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--slate);
+    background-color: var(--accent);
 }
 
 .header, a, ul, .footer {
@@ -185,7 +185,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--accent);
     cursor: pointer;
     width: 169px;
     height: 56px;
@@ -216,13 +216,22 @@ address {
     color: var(--slate);
 }
 /* main our */
+.our {
+    width: 1440px;
+    height: 732px;
+    background-color: var(--accent);
+}
+.designer {
+    background-color: var(--accent);
+}
 .our .team {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy);
 }
 .our .designer .people {
