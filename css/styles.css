@@ -199,7 +199,7 @@ address {
     background: var(--ocean);
 }
 /* main strategy */
-.main .strategy h3 {
+.main .strategy .key {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -207,7 +207,7 @@ address {
     letter-spacing: 0.02em;
     color: var(--navy);
 }
-.main .strategy p {
+.main .strategy .message {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -225,7 +225,7 @@ address {
     text-align: center;
     color: var(--navy);
 }
-.our .designer h3 {
+.our .designer .people {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -234,7 +234,7 @@ address {
     text-align: center;
     color: var(--navy);
 }
-.our .designer p {
+.our .designer .prof {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
