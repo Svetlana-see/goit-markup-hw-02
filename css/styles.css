@@ -158,13 +158,13 @@ address {
 }
     /* main solutions */
 .main .solutions {
-    width: 1440px;
-    height: 600px;
+    /* width: 1440px;
+    height: 600px; */
     background: var(--navy);
 }
 .main .solutions .effective {
-    font-family: var(--font-family);
-    font-weight: 700;
+    /* font-family: var(--font-family);
+    font-weight: 700; */
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -173,19 +173,20 @@ address {
 }
 .main .solutions .order {
     font-family: "Roboto", sans-serif;
-    align-items: flex-start;
+    /* align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 10px;
     border-radius: 4px;
-    padding: 16px 32px;
+    padding: 16px 32px; */
     font-weight: 500;
     line-height: 1.5;
+    font-size: 56px;
     letter-spacing: 0.04em;
     color: var(--accent);
     cursor: pointer;
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
     background: var(--iris);
 }
 .main .solutions .order:hover {
@@ -204,8 +205,8 @@ address {
     color: var(--navy);
 }
 .main .strategy .message {
-    font-family: var(--font-family);
-    font-weight: 400;
+    /* font-family: var(--font-family);
+    font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -227,7 +228,7 @@ address {
     text-transform: capitalize;
     color: var(--navy);
 }
-.designer {
+/* .designer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -237,7 +238,7 @@ address {
     width: 264px;
     height: 380px;
     background-color: var(--accent);
-}
+} */
 .our .designer .photo {
     width: 264px;
     height: 260px;
