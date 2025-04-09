@@ -38,7 +38,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--hero);
+    color: #2e2f42;
 }
 .header .studio {
     font-family: var(--second-family);
@@ -220,9 +220,9 @@ address {
     height: 732px;
     background-color: var(--cloud);
 }
-/* .designer {
+.designer {
     background-color: var(--accent);
-} */
+}
 .our .team {
     font-family: var(--font-family);
     font-weight: 700;
@@ -236,7 +236,7 @@ address {
 .our .designer .photo {
     width: 264px;
     height: 260px;
-    background-color: var(--accent);
+    /* background-color: var(--accent); */
 }
 .our .designer .people {
     font-family: var(--font-family);
@@ -265,7 +265,7 @@ address {
     text-align: center;
     line-height: 1.11;
     text-transform: capitalize;
-    color: var(--hero);
+    color: #2e2f42;
 }
 .portfolio .app .bank {
     font-family: var(--font-family);
@@ -298,7 +298,7 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer .foot span {
+.footer .foot .spa {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
