@@ -234,6 +234,8 @@ address {
     color: var(--navy);
 }
 .our .designer .photo {
+    width: 264px;
+    height: 260px;
     background-color: var(--accent);
 }
 .our .designer .people {
@@ -263,9 +265,9 @@ address {
     text-align: center;
     line-height: 1.11;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--hero);
 }
-.portfolio .app h3 {
+.portfolio .app .bank {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
@@ -273,7 +275,7 @@ address {
     letter-spacing: 0.02em;
     color: var(--navy);
 }
-.portfolio .app p {
+.portfolio .app .ap-p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
