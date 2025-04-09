@@ -151,7 +151,7 @@ address {
 /* .header .address .contacts .nom {
     color: #434455; */
 .header .address .contacts .nom:hover {
-    color: var(--ocean);
+    color: #404bbf;
 }
 .header .address .contacts .nom:focus {
     color: var(--ocean);
