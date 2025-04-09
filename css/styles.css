@@ -26,7 +26,6 @@ body {
 }
 /* heder styles */
 .header {
-    border-bottom: 1px solid var(--cornflower);
     width: 1440px;
     height: 72px;
     background: var(--accent);
@@ -220,9 +219,9 @@ address {
     height: 732px;
     background-color: var(--cloud);
 }
-.designer {
+/* .designer {
     background-color: var(--accent);
-}
+} */
 .our .team {
     font-family: var(--font-family);
     font-weight: 700;
@@ -236,7 +235,7 @@ address {
 .our .designer .photo {
     width: 264px;
     height: 260px;
-    /* background-color: var(--accent); */
+    background-color: #FFFFFF;
 }
 .our .designer .people {
     font-family: var(--font-family);
@@ -246,7 +245,8 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy);
-}
+    background-color: #FFFFFF;
+}     
 .our .designer .prof {
     font-family: var(--font-family);
     font-weight: 400;
@@ -255,8 +255,13 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--slate);
+    background-color: #FFFFFF;
 }
 /* main  portfolio*/
+.portfolio {
+    width: 1128px;
+    height: 1000px;
+}
 .portfolio .folio {
     font-family: var(--font-family);
     font-weight: 700;
