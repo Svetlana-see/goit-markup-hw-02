@@ -38,8 +38,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-
+    color: var(--hero);
 }
 .header .studio {
     font-family: var(--second-family);
@@ -48,7 +47,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--iris);
     line-height: 1.17;
 }
 .header .studio:hover {
@@ -219,11 +218,11 @@ address {
 .our {
     width: 1440px;
     height: 732px;
-    background-color: var(--accent);
+    background-color: var(--cloud);
 }
-.designer {
+/* .designer {
     background-color: var(--accent);
-}
+} */
 .our .team {
     font-family: var(--font-family);
     font-weight: 700;
@@ -233,6 +232,9 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: var(--navy);
+}
+.our .designer .photo {
+    background-color: var(--accent);
 }
 .our .designer .people {
     font-family: var(--font-family);
