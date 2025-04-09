@@ -219,9 +219,6 @@ address {
     height: 732px;
     background-color: var(--cloud);
 }
-/* .designer {
-    background-color: var(--accent);
-} */
 .our .team {
     font-family: var(--font-family);
     font-weight: 700;
@@ -231,6 +228,18 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: var(--navy);
+}
+.designer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    background-color: var(--accent);
 }
 .our .designer .photo {
     width: 264px;
