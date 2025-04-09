@@ -94,7 +94,7 @@ body {
     color: var(--navy);
 }
 .header .portfolio .stu:hover {
-    color: var(--ocean);
+    color: #404bbf;
 }
 .header .portfolio .stu:focus {
     color: var(--ocean);
@@ -173,7 +173,6 @@ address {
 }
 .main .solutions .order {
     font-family: "Roboto", sans-serif;
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -187,7 +186,6 @@ address {
     cursor: pointer;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
 }
 .main .solutions .order:hover {
@@ -230,7 +228,6 @@ address {
     color: var(--navy);
 }
 .designer {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
