@@ -213,13 +213,13 @@ address {
 }
 /* main our */
 .our {
-    width: 1440px;
-    height: 732px;
+    /* width: 1440px;
+    height: 732px; */
     background-color: var(--cloud);
 }
 .our .team {
-    font-family: var(--font-family);
-    font-weight: 700;
+    /* font-family: var(--font-family);
+    font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -238,30 +238,31 @@ address {
     height: 380px;
     background-color: var(--accent);
 } */
+.designer {
+    background-color: #FFFFFF;
+}
 .our .designer .photo {
     width: 264px;
     height: 260px;
     background-color: #FFFFFF;
 }
 .our .designer .people {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: var(--navy);
-    background-color: #FFFFFF;
 }     
 .our .designer .prof {
-    font-family: var(--font-family);
-    font-weight: 400;
+    /* font-family: var(--font-family);
+    font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: var(--slate);
-    background-color: #FFFFFF;
 }
 /* main  portfolio*/
 .portfolio {
