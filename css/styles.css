@@ -180,7 +180,7 @@ address {
     padding: 16px 32px; */
     font-weight: 500;
     line-height: 1.5;
-    font-size: 56px;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--accent);
     cursor: pointer;
@@ -265,13 +265,13 @@ address {
     color: var(--slate);
 }
 /* main  portfolio*/
-.portfolio {
+/* .portfolio {
     width: 1128px;
     height: 1000px;
-}
+} */
 .portfolio .folio {
-    font-family: var(--font-family);
-    font-weight: 700;
+    /* font-family: var(--font-family);
+    font-weight: 700; */
     font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
@@ -280,7 +280,7 @@ address {
     color: #2e2f42;
 }
 .portfolio .app .bank {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -288,7 +288,7 @@ address {
     color: var(--navy);
 }
 .portfolio .app .ap-p {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -297,12 +297,13 @@ address {
 }
 /* footer */
 .footer {
-    width: 1440px;
-    height: 312px;
+    /* width: 1440px;
+    height: 312px; */
     background: var(--navy);
 }
 .footer .foot {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
+    /* font-family: var(--second-family); */
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -311,15 +312,15 @@ address {
     color: #4d5ae5;
 }
 .footer .foot .spa {
-    font-family: var(--second-family);
+    /* font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     color: #f4f4fd;
 }
-.footer a:hover {
+/* .footer a:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -333,11 +334,11 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--ocean);
-}
-.footer p {
-    font-family: var(--font-family);
+} */
+.footer .flow {
+    /* font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
