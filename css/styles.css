@@ -134,12 +134,7 @@ address {
     text-transform: capitalize;
     color: var(--navy);
 }
-.designer {
-    background-color: #FFFFFF;
-}
 .our .designer .photo {
-    width: 264px;
-    height: 260px;
     background-color: #FFFFFF;
 }
 .our .designer .people {
