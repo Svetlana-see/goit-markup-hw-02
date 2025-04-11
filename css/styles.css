@@ -93,7 +93,7 @@ address {
     text-align: center;
     color: var(--accent);
 }
-.main .solutions .order {
+.main .solutions .ord {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
@@ -103,10 +103,10 @@ address {
     cursor: pointer;
     background: var(--iris);
 }
-.main .solutions .order:hover {
+.main .solutions .ord:hover {
     background: var(--ocean);
 }
-.main .solutions .order:focus {
+.main .solutions .ord:focus {
     background: var(--ocean);
 }
 .main .strategy .key {
